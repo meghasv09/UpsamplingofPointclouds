@@ -1,13 +1,13 @@
 # Upsampling of Point Clouds
 
-## 📌 Overview  
+## Overview  
 **Point Clouds** are 3D data representations captured from **LiDAR sensors, 3D scanners, or depth cameras**. They are widely used in **autonomous driving, robotics, VR/AR, and 3D object reconstruction**.  
 
 This project explores **point cloud upsampling** using **Deep Learning architectures like PointNet and PointNet++**. The goal is to enhance the resolution of sparse point clouds, improving their quality for classification, recognition, and reconstruction tasks.  
 
 ---
 
-## 🔍 What is Point Cloud Upsampling?  
+## What is Point Cloud Upsampling?  
 Upsampling point clouds involves **increasing point density** while preserving object structure. This is essential for:  
 - **3D Object Classification & Recognition** 📦  
 - **LiDAR Data Processing for Autonomous Vehicles** 🚗  
@@ -18,7 +18,7 @@ Upsampling point clouds involves **increasing point density** while preserving o
 
 ---
 
-## 🛠 Tech Stack  
+## Tech Stack  
 - **Programming Language:** Python 
 - **Libraries & Frameworks:**  
   - **TensorFlow/PyTorch** – Deep learning framework for training PointNet  
@@ -28,7 +28,7 @@ Upsampling point clouds involves **increasing point density** while preserving o
 
 ---
 
-## 🚀 Implementation  
+## Implementation  
 1. **Loading the Point Cloud Data**  
    - Reads a **.ply/.pcd** file using Open3D.  
 
